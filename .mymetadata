@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="OAbmo"
+  id="myeclipse.1532940399104"
+  context-root="/OAbmo"
+  j2ee-spec="5.0"
+  archive="OAbmo.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

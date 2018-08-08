@@ -1,0 +1,86 @@
+*{ margin:0; padding:0;}
+
+html { overflow-y: hidden;  }
+
+.password{
+      background-color:#f1f3f6;
+	  border:1px solid #f1f3f6;
+	  font-color:#ccc;
+}
+
+#Layer1 {
+	position:absolute;
+	left:224px;
+	top:479px;
+	padding-top:5px;
+	width:99px;
+	height:21px;
+	background-color:#fff;
+	z-index:1;
+}
+.password1 {      
+	 background-color:#f1f3f6;
+	  border:1px solid #f1f3f6;
+	  font-color:#ccc;
+}
+
+.youbian input{ border:0px none; background-color:transparent; color:#555;padding-left:10px;font-size:16px;width:100%;overflow: hidden;}
+body {
+
+    font-family:"宋体";
+    font-size: 12px;
+    background-color:#FFF;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color: #000000;text-decoration: none;
+}
+.spacer{
+    clear:both;
+    font-size:0;
+    line-height:0;
+}
+
+
+.outside {
+    width:100%;
+    height:660px;
+    margin:0px auto;
+}
+
+.head{
+    width:1000px;
+    margin:0px auto;
+    height:60px;
+}
+
+.main2{
+    width:100%;
+    height:485px;
+    background-color: #1871b5;
+}
+.content{
+    width:1002px;
+    height:485px;
+    margin:0px auto;
+    background:url(../images/login/bg2.jpg) no-repeat;
+}
+.youbian{
+    width:300px;
+    height:405px;
+    float:right;
+    padding:10px 8px 0px 45px;
+
+    margin-right:20px;
+    margin-top:62px;
+    background-color:#FFF;
+    background:url(../images/login/kuan.png) no-repeat;
+    display:inline;
+}
+.foot{
+    width:100%;
+    padding-top:15px;
+    height:30px;
+    border-top:1px solid #ececec;
+    color: #666;
+}

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="c_tag">
+    <CLASSES>
+      <root url="file://F:/F-01-SE/01-fileSource/-08-tld/jakarta-taglibs-standard-1.1.2/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://F:/F-01-SE/01-fileSource/-08-tld/jakarta-taglibs-standard-1.1.2/lib" recursive="false" />
+  </library>
+</component>

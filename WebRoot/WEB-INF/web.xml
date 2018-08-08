@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+	<!--
+		<filter> 别名 <filter-name>CookieFilter</filter-name> 过滤器类的全名
+		<filter-class>filter.CookieFilter</filter-class> </filter>
+	-->
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>NoticeServlet</servlet-name>
+		<servlet-class>servlet.NoticeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>EmpServlet</servlet-name>
+		<servlet-class>servlet.EmpServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>servlet.LogoutServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AttendanceServlet</servlet-name>
+    <servlet-class>servlet.AttendanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Wservlet</servlet-name>
+    <servlet-class>servlet.Wservlet</servlet-class>
+  </servlet>
+
+
+
+	<!--
+
+
+
+		<filter-mapping> <filter-name>CookieFilter</filter-name>
+		<url-pattern>/jsp/loginUI.jsp</url-pattern> </filter-mapping>
+	-->
+	<servlet-mapping>
+		<servlet-name>NoticeServlet</servlet-name>
+		<url-pattern>/NoticeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EmpServlet</servlet-name>
+		<url-pattern>/EmpServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/MessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttendanceServlet</servlet-name>
+    <url-pattern>/AttendanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Wservlet</servlet-name>
+    <url-pattern>/Wservlet</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>jsp/loginUI.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
